@@ -4,7 +4,7 @@
 		"message": "Validation …"
 	},
 	"SUCCESS": {
-		"message": "Valide (Signé par $1)"
+		"message": "Valide (signé par $1)"
 	},
 	"PERMFAIL": {
 		"message": "Non valide ($1)"
@@ -13,17 +13,17 @@
 		"message": "Non valide"
 	},
 	"TEMPFAIL": {
-		"message": "Erreur de validation temporaire (Pour la signature par $1)"
+		"message": "Erreur de validation temporaire (pour la signature par $1)"
 	},
 	"NOSIG": {
 		"message": "Absence de signature"
 	},
 	"NOT_EMAIL": {
-		"message": "Ce message n’est pas un courriel."
+		"message": "Ce message n’est pas un email."
 	},
 	// DKIM_INTERNALERROR
 	"DKIM_INTERNALERROR": {
-		"message": "Erreur interne à DKIM verifier"
+		"message": "Erreur interne à Vérificateur DKIM"
 	},
 	"DKIM_INTERNALERROR_NAME": {
 		"message": "Erreur interne"
@@ -32,7 +32,7 @@
 		"message": "erreur"
 	},
 	"DKIM_INTERNALERROR_INCORRECT_EMAIL_FORMAT": {
-		"message": "Format de courriel erroné"
+		"message": "Format d'email erroné"
 	},
 	// DKIM_INTERNALERROR - DNS
 	"DKIM_DNSERROR_UNKNOWN": {
@@ -95,19 +95,19 @@
 		"message": "Balise des données de signature malformée"
 	},
 	"DKIM_SIGERROR_MISSING_BH": {
-		"message": "Emprunte du corps du courriel manquante"
+		"message": "Empreinte du corps de l'email manquante"
 	},
 	"DKIM_SIGERROR_CORRUPT_BH": {
 		"message": "Courriel altéré"
 	},
 	"DKIM_SIGERROR_ILLFORMED_BH": {
-		"message": "Balise d’emprunte du corps du courriel malformée"
+		"message": "Balise d’empreinnte du corps de l'email malformée"
 	},
 	"DKIM_SIGERROR_UNKNOWN_C_H": {
 		"message": "Algorithme de normalisation de l’en-tête non supporté"
 	},
 	"DKIM_SIGERROR_UNKNOWN_C_B": {
-		"message": "Algorithme de normalisation du corps du courriel non supporté"
+		"message": "Algorithme de normalisation du corps de l'email non supporté"
 	},
 	"DKIM_SIGERROR_ILLFORMED_C": {
 		"message": "Balise de normalisation mal formée"
@@ -131,13 +131,13 @@
 		"message": "AUID n’est pas un sous dommaine du SDID"
 	},
 	"DKIM_SIGERROR_DOMAIN_I": {
-		"message": "AUID n’est pas du même domaine que le SDID (La balise « s » de l’enregistrement de la clé)"
+		"message": "AUID n’est pas du même domaine que le SDID (balise « s » de l’enregistrement de la clé)"
 	},
 	"DKIM_SIGERROR_ILLFORMED_I": {
 		"message": "Balise AUID malformée"
 	},
 	"DKIM_SIGERROR_TOOLARGE_L": {
-		"message": "Taille du message plus courte que spécifiée par la signature DKIM"
+		"message": "Taille du message plus courte que celle spécifiée par la signature DKIM"
 	},
 	"DKIM_SIGERROR_ILLFORMED_L": {
 		"message": "Balise de longueur du corps du courriel malformée"
@@ -164,7 +164,7 @@
 		"message": "Balise d’expiration de la signature malformée"
 	},
 	"DKIM_SIGERROR_ILLFORMED_Z": {
-		"message": "Balise des champs de’en-tête copiés malformée"
+		"message": "Balise des champs d’en-tête copiés malformée"
 	},
 	// DKIM_SIGERROR - key query
 	"DKIM_SIGERROR_NOKEY": {
@@ -193,7 +193,7 @@
 		"message": "Empreinte d’enregistrement DKIM manquante"
 	},
 	"DKIM_SIGERROR_KEY_ILLFORMED_H": {
-		"message": "Balise d’algorithmes d’emprunte malformée dans la clé DKIM"
+		"message": "Balise d’algorithmes d’empreinnte malformée dans la clé DKIM"
 	},
 	"DKIM_SIGERROR_KEY_UNKNOWN_K": {
 		"message": "Type de clé DKIM non reconnu"
@@ -214,7 +214,7 @@
 		"message": "Balise de clé DKIM publique malformée"
 	},
 	"DKIM_SIGERROR_KEY_NOTEMAILKEY": {
-		"message": "Clé DKIM ne correspondant pas à une clé de courriel"
+		"message": "Clé DKIM ne correspondant pas à une clé d'email"
 	},
 	"DKIM_SIGERROR_KEY_ILLFORMED_S": {
 		"message": "Balise type de service malformée dans la clé DKIM"
@@ -244,7 +244,7 @@
 	},
 	// DKIM_SIGWARNING
 	"DKIM_SIGWARNING_SMALL_L": {
-		"message": "Courriel non signé en totalité"
+		"message": "Email non signé en totalité"
 	},
 	"DKIM_SIGWARNING_EXPIRED": {
 		"message": "Signature expirée"
@@ -282,7 +282,7 @@
 	},
 	// ==================== Options window ====================
 	"options_prefwindow.title": {
-		"message": "Préférence du vérificateur DKIM"
+		"message": "Préférence de Vérificateur DKIM"
 	},
 	// -------------------- General options --------------------
 	"options_general": {
@@ -315,7 +315,7 @@
 		"message": "DNS"
 	},
 	"options_dns.resolver": {
-		"message": "Résolution:"
+		"message": "Résolution :"
 	},
 	"options_dns.resolver.value.1": {
 		"message": "Bibliothèque DNS en JavaScript"
@@ -324,31 +324,31 @@
 		"message": "libunbound"
 	},
 	"options_dns.getNameserversFromOS": {
-		"message": "Récupérer les serveurs de DNS depuis la configuration de l’OS"
+		"message": "Utiliser les serveurs de DNS du système d'exploitation"
 	},
 	"options_dns.nameserver": {
-		"message": "Nom du serveur DNS (Syntaxe (EBNF) : host[\":\"port]{\";\"host[\":\"port]} ):"
+		"message": "Nom du serveur DNS (syntaxe (EBNF) : host[\":\"port]{\";\"host[\":\"port]} ):"
 	},
 	"options_dns.timeout_connect": {
-		"message": "Expiration de la connexion DNS (en secondes):"
+		"message": "Expiration de la connexion DNS (en secondes) :"
 	},
 	"options_dns.proxy.enable": {
 		"message": "Utiliser un « proxy » pour se connecter au serveur DNS"
 	},
 	"options_dns.proxy.type": {
-		"message": "Type de  « proxy » :"
+		"message": "Type de « proxy » :"
 	},
 	"options_dns.proxy.host": {
-		"message": "Serveur  « proxy » :"
+		"message": "Serveur « proxy » :"
 	},
 	"options_dns.proxy.port": {
 		"message": "Port :"
 	},
 	"options_dns.libunbound.nameserver": {
-		"message": "Serveur DNS (Syntaxe (EBNF): IP{\";\"IP} ):"
+		"message": "Serveur DNS (syntaxe (EBNF): IP{\";\"IP} ):"
 	},
 	"options_dns.libunbound.usageWarning": {
-		"message": "le résolveur libunbound requière une librairie externe qui doit être installée"
+		"message": "le résolveur libunbound requiert une librairie externe qui doit être installée"
 	},
 	"options_dns.libunbound.path": {
 		"message": "Chemin"
@@ -361,13 +361,13 @@
 		"message": "Politique"
 	},
 	"options_policy.signRules.enable": {
-		"message": "Vérifier les courriels qui devraient être signés"
+		"message": "Vérifier les emails qui devraient être signés"
 	},
 	"options_policy.signRules.checkDefaultRules": {
 		"message": "Utiliser les règles par défauts"
 	},
 	"options_policy.signRules.autoAddRule.enable": {
-		"message": "Ajouter automatiquement les règles en se basant sur l’aperçu des courriels signés par DKIM"
+		"message": "Ajouter automatiquement les règles en se basant sur l’aperçu des emails signés par DKIM"
 	},
 	"options_policy.signRules.autoAddRule.onlyIfFromAddressInSDID": {
 		"message": "Seulement si l’adresse expédteur est dans le SDID"
@@ -376,7 +376,7 @@
 		"message": "pour l’adresse expéditeur"
 	},
 	"options_policy.signRules.autoAddRule.for.value.1": {
-		"message": "pour le sous domaines"
+		"message": "pour le sous-domaine"
 	},
 	"options_policy.signRules.autoAddRule.for.value.2": {
 		"message": "pour le domaine de base"
@@ -394,35 +394,35 @@
 		"message": "Règles signataires par défaut…"
 	},
 	"options_policy.DMARC.shouldBeSigned.enable": {
-		"message": "Utiliser DMARC pour déterminer de façon précise si le mail doit être signé"
+		"message": "Utiliser DMARC pour déterminer de façon précise si l'email doit être signé"
 	},
 	// -------------------- Display options --------------------
 	"options_display": {
 		"message": "Affichage"
 	},
 	"options_showDKIMHeader": {
-		"message": "Montrer l’entête DKIM:"
+		"message": "Afficher l’en-tête DKIM :"
 	},
 	"options_showDKIMFromTooltip": {
-		"message": "Montrer l’infobulle DKIM dans l’expéditeur de l’entête:"
+		"message": "Afficher l’infobulle DKIM dans l’expéditeur de l’en-tête :"
 	},
 	"options_showDKIM.value.0": {
 		"message": "jamais"
 	},
 	"options_showDKIM.value.10": {
-		"message": "quand un courriel avec une signature DKIM valide est vu"
+		"message": "quand un email avec une signature DKIM valide est affiché"
 	},
 	"options_showDKIM.value.30": {
-		"message": "quand un courriel avec une signature DKIM est vu"
+		"message": "quand un email avec une signature DKIM est affiché"
 	},
 	"options_showDKIM.value.40": {
-		"message": "quand le courriel est vu"
+		"message": "quand l'email est affiché"
 	},
 	"options_showDKIM.value.50": {
-		"message": "quand le message est vu"
+		"message": "quand le message est affiché"
 	},
 	"options_colorFrom": {
-		"message": "Activer la coloration de l’expéditeur dans l’entête"
+		"message": "Activer la coloration de l’expéditeur dans l’en-tête"
 	},
 	"options_color": {
 		"message": "Couleur"
@@ -446,17 +446,17 @@
 		"message": "Erreur temporaire"
 	},
 	"options_color.nosig": {
-		"message": "Courriel non signé"
+		"message": "Email non signé"
 	},
 	"options_display.favicon.show": {
 		"message": "Afficher l’icône des signatures de domaine connus avant l’adresse De"
 	},
 	// -------------------- Advanced options --------------------
 	"options_advanced": {
-		"message": "Avancés"
+		"message": "Avancé"
 	},
 	"options_debug": {
-		"message": "Activer le deboggage (Les sorties d’erreur et de debug seront dans la console d’erreur)"
+		"message": "Activer le deboggage (les sorties d’erreur et de debug seront dans la console d’erreur)"
 	},
 	"options_error.detailedReasons": {
 		"message": "Montrer la raison de l’erreur en détail"
@@ -465,19 +465,19 @@
 		"message": "Toujours vérifier la signature, si le domaine teste seulement le DKIM"
 	},
 	"options_error.illformed_i.treatAs": {
-		"message": "Traiter l’étiquette AUID malformée comme:"
+		"message": "Traiter une étiquette AUID malformée comme :"
 	},
 	"options_error.illformed_s.treatAs": {
-		"message": "Traiter l’étiquette du sélecteur malformée comme:"
+		"message": "Traiter une étiquette du sélecteur malformée comme :"
 	},
 	"options_error.policy.key_insecure.treatAs": {
-		"message": "Traiter une clé DKIM qui n’est pas signé par DNSSEC:"
+		"message": "Traiter une clé DKIM qui n’est pas signée par DNSSEC :"
 	},
 	"options_error.algorithm.sign.rsa-sha1.treatAs": {
-		"message": "Traiter l’agorithme de signature rsa-sha1 comme:"
+		"message": "Traiter l’agorithme de signature rsa-sha1 comme :"
 	},
 	"options_error.algorithm.rsa.weakKeyLength.treatAs": {
-		"message": "Traiter les clés RSA faibles (<2048 bits) comme:"
+		"message": "Traiter les clés RSA faibles (<2048 bits) comme :"
 	},
 	"options_error.treatAs.value.0": {
 		"message": "erreur"
@@ -489,29 +489,29 @@
 		"message": "rien"
 	},
 	"options_display.keySecure": {
-		"message": "Indiquer le succès de la validation DNSSEC avec un verrou après le SSID"
+		"message": "Indiquer le succès de la validation DNSSEC avec un cadenas après le SSID"
 	},
 	"options_arh.read": {
-		"message": "Lecture du résultat de l’authentification de l’entête"
+		"message": "Lecture du résultat de l’authentification de l’en-tête"
 	},
 	"options_arh.replaceAddonResult": {
 		"message": "Lecture de l’en-tête Authentication-Results pour remplacer la vérification des add-ons"
 	},
 	"options_arh.relaxedParsing": {
-		"message": "Essayer de lire une entête Authentication-Results non conforme à la RFC"
+		"message": "Essayer de lire une en-tête Authentication-Results non conforme à la RFC"
 	},
 	"options_account": {
 		"message": "Comptes",
 		"description": "Titre pour l'option spécifique du compte"
 	},
 	"options_acc.dkim.enable": {
-		"message": "Vérifier les signatures DKIM:"
+		"message": "Vérifier les signatures DKIM :"
 	},
 	"options_acc.arh.read": {
-		"message": "Lecture de l’entête du résultat de l’authentification:"
+		"message": "Lecture de l’en-tête du résultat de l’authentification :"
 	},
 	"options_acc.arh.allowedAuthserv": {
-		"message": "Serveurs d’authentification vérifiés:"
+		"message": "Serveurs d’authentification vérifiés :"
 	},
 	"options_acc.boolean.value.0": {
 		"message": "Utiliser les valeurs par défaut"
@@ -531,7 +531,7 @@
 		"description": "Name of the add-on"
 	},
 	"about_summary": {
-		"message": "Vérifie la signature DKIM des courriels.",
+		"message": "Vérifier la signature DKIM des emails.",
 		"description": "Short description of the add-on"
 	},
 	"about_homepage": {
@@ -542,15 +542,15 @@
 		"description": "Lien pour la page de documentation GitHub"
 	},
 	"about_contributors": {
-		"message": "Contributeur GitHub",
+		"message": "Contributeurs GitHub",
 		"description": "Lien pour la page des contributeur GitHub"
 	},
 	"about_translators": {
-		"message": "Traducteurs:",
+		"message": "Traducteurs :",
 		"description": "Titre pour la liste des contributeurs"
 	},
 	"about_dependencies": {
-		"message": "Dépendances incluses:",
+		"message": "Dépendances incluses :",
 		"description": "Titre pour la liste des dépendances incluses"
 	},
 	"about_by": {
@@ -649,7 +649,7 @@
 		"message": "Sélectionner automatiquement la priorité"
 	},
 	"signRules.priorityMode.manual": {
-		"message": "Mettre la priorité à:"
+		"message": "Définir la priorité à :"
 	},
 	"button.cancel": {
 		"message": "Annuler"
@@ -658,10 +658,10 @@
 		"message": "Aide…"
 	},
 	"signersRuleHelp.title": {
-		"message": "Aide sur les règles signataires"
+		"message": "Aide pour les règles signataires"
 	},
 	"domain.description": {
-		"message": "Devra correspondre au domaine de base de l’adresse de l’expéditeur. Par exemple, le domaine de base pour ’courriel.example.com’ est example.com’."
+		"message": "Devra correspondre au domaine de base de l’adresse de l’expéditeur. Par exemple, le domaine de base pour ’courriel.example.com’ est ’example.com’."
 	},
 	"listId.description": {
 		"message": "Devra correspondre au list-id, si le courriel est reçu au travers d’une liste de diffusion. Noter que c’est seulement la partie entre ’<’ et ’>’ du « List-Id » de l’en-tête qui est le « List-Id » actuel. Soit seulement le domaine ou le « List-Id » qui correspond au même moment."
@@ -670,22 +670,22 @@
 		"message": "Devra correspondre par rapport à l’adresse de l’expéditeur. Utiliser ’*’ pour définir zéro ou plusieurs caractères."
 	},
 	"sdid.description": {
-		"message": "Le domaine par lequel les courriels seront signés. S’il est laissé vide, tous les SDID seront autorisés. Plusieurs domaines peuvent être spécifié en les séparant avec un espace."
+		"message": "Le domaine par lequel les emails seront signés. S’il est laissé vide, tous les SDID seront autorisés. Plusieurs domaines peuvent être spécifié en les séparant avec un espace."
 	},
 	"ruletype.description": {
 		"message": "Le type de la règle."
 	},
 	"ruletype.1.description": {
-		"message": "Le courriel doit être spécifié par le SDID spécifié."
+		"message": "L'email doit être spécifié par le SDID spécifié."
 	},
 	"ruletype.2.description": {
-		"message": "Le courriel n’a pas besoin d’être signé, si il l’est, cela doit être spécifié par le SDID."
+		"message": "L'email n’a pas besoin d’être signé, s'il l’est, cela doit être spécifié par le SDID."
 	},
 	"ruletype.3.description": {
-		"message": "Le courriel n’a pas besoin d’être signé. Si il est signé, il doit être spécifié oar le SDID. Si le mail a une signature non valide, il sera traité comme n’ayant pas de signature."
+		"message": "L'email n’a pas besoin d’être signé. S'il est signé, il doit être spécifié par le SDID. Si le message a une signature non valide, il sera traité comme s'il n'avait pas de signature."
 	},
 	"priority.description": {
-		"message": "La priorité de la règles, si plus d’une règle correspond, celle qui aura la plus grande priorité sera utilisée."
+		"message": "Priorité de la règle. Si plusieurs règles correspondent, celle avec la plus grande priorité sera utilisée."
 	},
 	"enabled.description": {
 		"message": "1 si la règle est activée, 0 si elle est désactivée."
